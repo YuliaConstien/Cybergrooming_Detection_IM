@@ -7,7 +7,7 @@ The goal of the project is to classify online chats into predatory and non-preda
 ### Data
 
 Contains all datasets as follwos: 
-- DutchData: contains train, validation and test sets in Dutch
+- **DutchData**: contains train, validation and test sets in Dutch
 - EnglishData: contains train, validation and test sets in English
 - FrenchData: contains train, validation and test sets in French
 - Germandata: contains train, validation and test sets in German
@@ -28,9 +28,9 @@ Contains all computaional as follows:
 ## Reproducing Results
 
 Install all necessary packages with requirements.txt
-
+'''
 $ pip install requirements.txt
-
+'''
 Run the jupyter notebook for each language in the CrossLing folder to reproduce the experiments and results for this setting
 
 Run the jupyter notebook for each language in the MonoLing folder to reproduce the experiments and results for this setting 
