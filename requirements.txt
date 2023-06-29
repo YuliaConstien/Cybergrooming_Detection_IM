@@ -6,3 +6,5 @@ evaluate==0.4.0
 sikit-learn==1.2.2
 seaborn==0.12.2
 matplotlib==3.7.1
+cheklist==0.0.11
+beautifulsoup4==4.11.2
