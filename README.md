@@ -15,10 +15,12 @@ Contains all datasets as follwos:
 - VTPAN_train_IDs.txt: text file with the training conversations ids used in the final training set 
 - VTPAN_test_IDs.txt: text file with the test conversations ids used in the final test set
 
-## src
+### src
 
 Contains all computaional as follows: 
-- CrossLing:
-- MonoLing:
-- MultiLing:
--
+- CrossLing: code for training and evaluating the model for German, French and Dutch in the cross-lingual setup
+- MonoLing: code for training and evaluating the model for English, German, French and Dutch in the monolingual setup
+- MultiLing: code for training and evaluating the model for English, German, French and Dutch in the multilingual setup
+- CGD_TranslatedData_preporcessing_json.ipynb: code for creating the final training and test sets i German, French and Dutch
+- CGD_dataset_preprocessing.ipynb:  code for data preprocessing steps
+- NaiveBayes.py: code fo the baseline model
