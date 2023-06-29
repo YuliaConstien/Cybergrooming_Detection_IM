@@ -13,4 +13,12 @@ Contains all datasets as follwos:
 - Germandata: contains train, validation and test sets in German
 - JsonData: contains the original train and test sets cleaned, normalized and tranlsated into 3 languages in json format
 - VTPAN_train_IDs.txt: text file with the training conversations ids used in the final training set 
-- VTPAN_test_IDs.txt: text file with the test conversations ids used in the final test set 
+- VTPAN_test_IDs.txt: text file with the test conversations ids used in the final test set
+
+## src
+
+Contains all computaional as follows: 
+- CrossLing:
+- MonoLing:
+- MultiLing:
+- 
