@@ -37,6 +37,8 @@ Run the jupyter notebook for each language in the MonoLing folder to reproduce t
 
 Follow the steps in xmlRoberta_all_Lang.ipynb in the MultiLing folder to reproduce the experiments and results for this setting 
 
+Follow the steps in CGD_CheckList.ipynb in the CheckList folder to reproduce the capabilties tests
+
 Follow the steps in CGD_dataset_preprocessing.ipynb to reproduce the preprocessing of the dataset. 
 
 Follow the steps in CGD_TranslatedData_preporcessing_json.ipynb to create the final datasets in all 4 languages in csv format 
