@@ -7,4 +7,10 @@ The goal of the project is to classify online chats into predatory and non-preda
 ## Data
 
 Contains all datasets as follwos: 
-- '#DutchData' : contains traing, validation and test sets in Dutch 
+- DutchData : contains traing, validation and test sets in Dutch
+- - DutchData : contains traing, validation and test sets in Dutch
+  - - DutchData : contains traing, validation and test sets in Dutch
+    - - DutchData : contains traing, validation and test sets in Dutch
+      - - DutchData : contains traing, validation and test sets in Dutch
+        - - DutchData : contains traing, validation and test sets in Dutch
+          - - DutchData : contains traing, validation and test sets in Dutch 
