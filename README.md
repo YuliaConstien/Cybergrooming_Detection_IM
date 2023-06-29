@@ -17,7 +17,7 @@ Contains all datasets as follwos:
 - Test sets for German, French, Dutch, and original testset in Json format can be found in the folder on Google Drive under the link:
   (due to their size, over 100 MG, they cannot be uploaded here)
   https://drive.google.com/drive/folders/1sTzdwnzkkKKbm-iwb7jegU0Gj0TgyuNx?usp=sharing
-- Trian sets or the original data in Json format, and train set of all languages combied used in teh multilingua setting in csv format, can be found under the link:
+- Train sets of the original data in Json format, and train set of all languages combined used in the multilingual setting in csv format, can be found under the link:
 (Due to their size they cannot be uploaded here)
 https://drive.google.com/drive/folders/1eOCl-uIKWNEgIuo7UfBgR93v8hoxAiSo?usp=sharing
 
