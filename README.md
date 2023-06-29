@@ -7,10 +7,10 @@ The goal of the project is to classify online chats into predatory and non-preda
 ## Data
 
 Contains all datasets as follwos: 
-- DutchData : contains traing, validation and test sets in Dutch
-- - DutchData : contains traing, validation and test sets in Dutch
-  - - DutchData : contains traing, validation and test sets in Dutch
-    - - DutchData : contains traing, validation and test sets in Dutch
-      - - DutchData : contains traing, validation and test sets in Dutch
-        - - DutchData : contains traing, validation and test sets in Dutch
-          - - DutchData : contains traing, validation and test sets in Dutch 
+- DutchData: contains train, validation and test sets in Dutch
+- EnglishData: contains train, validation and test sets in English
+- FrenchData: contains train, validation and test sets in French
+- Germandata: contains train, validation and test sets in German
+- JsonData: contains the original train and test sets cleaned, normalized and tranlsated into 3 languages in json format
+- VTPAN_train_IDs.txt: text file with the training conversations ids used in the final training set 
+- VTPAN_test_IDs.txt: text file with the test conversations ids used in the final test set 
