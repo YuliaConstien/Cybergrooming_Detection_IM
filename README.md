@@ -28,4 +28,28 @@ Contains all computaional as follows:
 ## Reproducing Results
 
 Install all necessary packages with requirements.txt
+
 $ pip install requirements.txt
+
+Run the jupyter notebook for each language in the CrossLing folder to reproduce the experiments and results for this setting
+
+Run the jupyter notebook for each language in the MonoLing folder to reproduce the experiments and results for this setting 
+
+Follow the steps in xmlRoberta_all_Lang.ipynb in the MultiLing folder to reproduce the experiments and results for this setting 
+
+Follow the steps in CGD_dataset_preprocessing.ipynb to reproduce the preprocessing of the dataset. 
+
+Follow the steps in CGD_TranslatedData_preporcessing_json.ipynb to create the final datasets in all 4 languages in csv format 
+
+To download XMLRoBERTa trained in the multilingual setup from the Huggingface Hub use:
+
+from transformers import AutoTokenizer, AutoModelForSequenceClassification
+
+tokenizer = AutoTokenizer.from_pretrained("Constien/xmlRoberta_all_lang")
+
+model = AutoModelForSequenceClassification.from_pretrained("Constien/xmlRoberta_all_lang")
+
+
+Reproduce the Naive Bayes by running: 
+
+$ python NaiveBayes.py
