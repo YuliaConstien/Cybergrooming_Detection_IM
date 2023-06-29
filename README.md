@@ -7,7 +7,7 @@ The goal of the project is to classify online chats into predatory and non-preda
 ### Data
 
 Contains all datasets as follwos: 
-- **DutchData**: contains train, validation and test sets in Dutch
+- DutchData: contains train, validation and test sets in Dutch
 - EnglishData: contains train, validation and test sets in English
 - FrenchData: contains train, validation and test sets in French
 - Germandata: contains train, validation and test sets in German
@@ -43,13 +43,16 @@ Follow the steps in CGD_TranslatedData_preporcessing_json.ipynb to create the fi
 
 To download XMLRoBERTa trained in the multilingual setup from the Huggingface Hub use:
 
+```
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
 
 tokenizer = AutoTokenizer.from_pretrained("Constien/xmlRoberta_all_lang")
 
 model = AutoModelForSequenceClassification.from_pretrained("Constien/xmlRoberta_all_lang")
-
+```
 
 Reproduce the Naive Bayes by running: 
-
+```
 $ python NaiveBayes.py
+```
+
