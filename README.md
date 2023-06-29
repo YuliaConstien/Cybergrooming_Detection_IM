@@ -25,12 +25,12 @@ Contains all computaional as follows:
 - CGD_dataset_preprocessing.ipynb:  code for data preprocessing steps
 - NaiveBayes.py: code fo the baseline model
 
-## Reproducing Results
+## Reproduction
 
 Install all necessary packages with requirements.txt
-'''
+```
 $ pip install requirements.txt
-'''
+```
 Run the jupyter notebook for each language in the CrossLing folder to reproduce the experiments and results for this setting
 
 Run the jupyter notebook for each language in the MonoLing folder to reproduce the experiments and results for this setting 
