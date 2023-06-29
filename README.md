@@ -24,3 +24,8 @@ Contains all computaional as follows:
 - CGD_TranslatedData_preporcessing_json.ipynb: code for creating the final training and test sets i German, French and Dutch
 - CGD_dataset_preprocessing.ipynb:  code for data preprocessing steps
 - NaiveBayes.py: code fo the baseline model
+
+## Reproducing Results
+
+Install all necessary packages with requirements.txt
+$ pip install requirements.txt
