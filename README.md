@@ -50,7 +50,7 @@ Follow the steps in CGD_dataset_preprocessing.ipynb to reproduce the preprocessi
 
 Follow the steps in CGD_TranslatedData_preporcessing_json.ipynb to create the final datasets in all 4 languages in csv format 
 
-To download XMLRoBERTa trained in the multilingual setup from the Huggingface Hub use:
+To download XMLRoBERTa fine-tuned in the multilingual setup from the Huggingface Hub use:
 
 ```
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
