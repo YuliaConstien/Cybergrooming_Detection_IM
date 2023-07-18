@@ -24,7 +24,7 @@ https://drive.google.com/drive/folders/1eOCl-uIKWNEgIuo7UfBgR93v8hoxAiSo?usp=sha
 
 ### src
 
-Contains all computaional as follows: 
+Contains all computaional files as follows: 
 - CrossLing: code for training and evaluating the model for German, French and Dutch in the cross-lingual setup
 - MonoLing: code for training and evaluating the model for English, German, French and Dutch in the monolingual setup
 - MultiLing: code for training and evaluating the model for English, German, French and Dutch in the multilingual setup
